@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title id="title">ERR Effects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+    <nav id="navbar">
+      <header>Efeitos</header>
+      <ul>
+        <li><a href="#Diferenças_Principais" class="nav-link">Diferenças Principais</a></li>
+        <li><a href="#Sangramento" class="nav-link">Sangramento</a></li>
+        <li><a href="#Congelamento" class="nav-link">Congelamento</a></li>
+        <li><a href="#Veneno" class="nav-link">Veneno</a></li>
+        <li><a href="#Podridão" class="nav-link">Podridão</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Diferenças_Principais">
+        <header>Diferenças Principais</header>
+        <p>Atualizamos vários chefes e inimigos para possuir menos imunidades. A maioria dos inimigos pode ser afetada por status de forma que faça sentido (Golem de pedra não pode sangrar). Inimigos que possuem ou usam alguma afinidade geralmente serão mais resistentes ao mesmo (preste atenção no traçado do ataque).</p>
+        <p>A escala de resistência dos jogadores varia dependendo do nível do personagem. Como no jogo base, os inimigos vão ficar mais resistentes ao efeito de status após serem atingidos por um.</p>
+      </section>
+      <section class="main-section" id="Sangramento">
+        <header>Sangramento</header>
+        <p>O sangramento tem seu dano aplicado dependendo do tipo de inimigo que você está enfrentando. Valores mais altos se dão para inimigos mais fracos e vice-versa. A partir da segunda aplicação, o dano irá aumentar em 10% a cada vez que o efeito for infligido no mesmo alvo.</p>
+        <code>"Dano Máx = 30% de saúde máxima + 150 de dano -- Dano Mín = 3% de saúde máxima + 15"</code>
+        <p>Contra os jogadores, o status de efeito foi modificado para funcionar da seguinte forma:</p>
+        <code>"Dano = 22% da vida máxima + 120 de dano"</code>
+      </section>
+      <section class="main-section" id="Congelamento">
+        <header>Congelamento</header>
+        <p>O congelamento tem seu dano aplicado dependendo do tipo de inimigo que você está enfrentando. Valores mais altos se dão para inimigos mais fracos e vice-versa. Ele também diminui as resistências do inimigo em 10% por 50 segundos, podendo acumular.</p>
+        <code>"Dano Máx = 10% de saúde máxima + 50 de dano -- Dano Mín = 1% de saúde máxima + 5"</code>
+        <p>Contra os jogadores, o status de efeito foi modificado para funcionar da seguinte forma:</p>
+        <code>"Dano = 8% da vida máxima + 40 de dano"</code>
+      </section>
+      <section class="main-section" id="Veneno">
+        <header>Veneno</header>
+        <p>Removido o efeito de veneno letal/veneno normal. Agora o jogo possuirá apenas um tipo de veneno, mas seu efeito é cumulativo.</p>
+        <p>A duração do envenenamento foi aumentada de 90 para 100 segundos e cada aplicação diminui a resistência dos alvos atingidos em 5% + 30.</p>
+        <code>"Dano Máx = 10% da vida máxima + 1000"</code>
+        <p>Contra os jogadores, o status de efeito foi modificado para funcionar da seguinte forma:</p>
+        <code>"Dano = 15% da vida máxima + 80 de dano"</code>
+      </section>
+      <section class="main-section" id="Podridão">
+        <header>Podridão</header>
+        <p>Possui efeito cumulativo agora, com o tempo reduzido para 40 segundos. Cada aplicação diminui a defesa do alvo em 5%.</p>
+        <p>Seu dano nos jogadores permanece o mesmo, mas nos inimigos foi alterado para:</p>
+        <code>"Dano Máximo = 12% + 1200"</code>
+        <p>Para aplicar podridão nos inimigos, você precisa de pelo menos um dos seguintes meios:</p>
+        <ul>
+          <li>Infusão de Podridão (Fé)</li>
+          <li>Pote de Podridão (Construção)</li>
+          <li>Armas Especiais</li>
+          <li>Encantamentos (Fé)</li>
+          <li>Cinza da Guerra Renascida (Novo)</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
+
